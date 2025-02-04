@@ -24,9 +24,9 @@ inquirer.prompt([
     console.log("Text file updated");
 
     // Generate QR codes
-    generateQRCode(DESTER, 'dester.png');
-    generateQRCode(Sin, 'Sin.png');
-    generateQRCode(HER, 'HER.png');
+    generateQRCode(DESTER, 'name.png');
+    generateQRCode(Sin, 'sillyname.png');
+    generateQRCode(HER, 'superheroname.png');
 
     // Save names to a text file
     const textContent = `Name: ${DESTER}\nVillain Name: ${Sin}\nSuperhero Name: ${HER}\n`;
